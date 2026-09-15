@@ -1,0 +1,10 @@
+{
+  "name": "devops-cicd-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simple static website deployed to S3 + CloudFront via GitHub Actions",
+  "scripts": {
+    "test": "node test.js",
+    "build": "node build.js"
+  }
+}
